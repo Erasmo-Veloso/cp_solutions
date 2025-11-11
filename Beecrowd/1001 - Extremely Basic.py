@@ -1,1 +1,8 @@
-I8KgLSotwqBjb2Rpbmc6wqB1dGYtOMKgLSotCgp4McKgPcKgaW50KGlucHV0KCkpCngywqA9wqBpbnQoaW5wdXQoKSkKCngzwqA9wqB4McKgK8KgeDIKcHJpbnQoZidYwqA9wqB7eDN9Jyk=
+# -*- coding: utf-8 -*-
+
+x1 = int(input())
+x2 = int(input())
+
+x3 = x1 + x2
+
+print(f'X = {x3}')
