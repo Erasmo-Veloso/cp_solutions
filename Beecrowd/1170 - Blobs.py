@@ -2,7 +2,7 @@
 
 N = int(input())
 
-for _ range(N):
+for _ in range(N):
     f = float(input())
     d = 0 
     while f > 0:
