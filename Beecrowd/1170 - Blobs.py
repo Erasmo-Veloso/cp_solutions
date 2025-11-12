@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+
+N = int(input())
+
+for _ range(N):
+    f = float(input())
+    d = 0 
+    while f > 0:
+        f /= 2
+        d+=1
+    print(f'{d} dias')
+        
