@@ -4,7 +4,7 @@ for _ in range(N):
     number = int(input())
     c = 0
     isPrime = False
-    to = int((100*len(str(number)))**(1/2))
+    to = int((10**len(str(number)))**(1/2))
     if to < number:
         c+=1
     for i in range(to):
