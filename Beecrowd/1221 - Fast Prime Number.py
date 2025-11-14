@@ -4,7 +4,8 @@ for _ in range(N):
     number = int(input())
     c = 0
     isPrime = False
-    for i in range(number):
+    to = int((100*len(str(number)))**(1/2))
+    for i in range(to):
         if c > 2:
             isPrime = True
             break
