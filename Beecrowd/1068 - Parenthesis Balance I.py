@@ -2,24 +2,24 @@
 
 import sys
 
-P = "()"
+
 for line in sys.stdin:
     expression = str(line)
     
-    __p = ""
     isCorrect = True
-    isFounded = False
+    isOpen = False
+    isClosed = False
+    closed = 0
+    opened = 0
     for element in expression:
-        if __p != element and element in P:
-            if not isFounded and element == ")":
-                isCorrect = False
-                break
-            __p = element
-            isFounded = True
-        elif __p == element and element in P:
-            isCorrect = False
-            break
+        if element == "(":
+            opened += 1
+            isOpen = False if isOpen else True
+        elif element == ")":
+            closed += 1
+            isClosed = False if isClosed else True
     
+    isCorrect = (opened == closed) and (isOpen and isClosed)
     print("correct" if isCorrect else "incorrect")
     
     
