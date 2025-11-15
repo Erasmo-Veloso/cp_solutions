@@ -14,6 +14,6 @@ for element in expression:
         isCorrect = False
         break
 
-print("is correct" if isCorrect else "incorrect")
+print("incorrect" if isCorrect else "is correct")
     
     
