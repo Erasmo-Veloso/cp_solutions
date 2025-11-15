@@ -16,6 +16,6 @@ for line in sys.stdin:
             isCorrect = False
             break
     
-    print("incorrect" if isCorrect else "is correct")
+    print("correct" if isCorrect else "incorrect")
     
     
