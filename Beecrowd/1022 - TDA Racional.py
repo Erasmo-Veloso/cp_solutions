@@ -6,7 +6,7 @@ for _ in range(N):
     Values = input().split()
     N1 = int(Values[0])
     D1 = int(Values[2])
-    Operador = Values[3]
+    Operador = Values[3]
     N2 = int(Values[4])
     D2 = int(Values[6])
     
