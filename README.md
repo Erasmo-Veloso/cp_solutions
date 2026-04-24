@@ -11,4 +11,4 @@ Este repositório tem como objetivo:
 - Acompanhar minha **evolução** em programação competitiva;
 - Servir como **referência pessoal** de algoritmos e técnicas;
 - Compartilhar **boas práticas** de código limpo e eficiente;
-- Criar uma base sólida para competições como **ICPC**, **Codeforces**, **LeetCode**, **AtCoder**, **UVa**, e outras.
+- Criar uma base sólida para competições como **ICPC**, **Codeforces**, **LeetCode**, **AtCoder**, **UVa**, e outras
